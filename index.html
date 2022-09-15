@@ -3,88 +3,60 @@
 
 <head>
     <link rel="stylesheet" href="./stylesheet/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.css" />
     <script defer src="./javascript/index.js">
     </script>
 </head>
 
 <body>
-    <button id="hello">hello world!</button>
-    <ul>
-        <h3>
-            <li><a href="./pages/home.html">Home</a></li>
-        </h3>
-        <h3>
-            <li><a href="./pages/information.html">information</a></li>
-        </h3>
-    </ul>
-    <h1 id="intro">
-        Welcome To My WebPage
-        <a href="/">Example</a>
-    </h1>
-    <h2 class="hclass">Please Add Your Personal Information First</h2>
-    <h1>h1 added</h1>
+    <!-- <button onclick="h1Clicked()">Fetch Data From Server</button>
 
-    <form>
-        <fieldset>
-            <legend>Personal Information</legend>
-            <label>User Name</label>
-            <input type="text" placeholder="Type Your User Name" />
-            <label>Email Address</label>
-            <input type="text" placeholder="Type Your Email" />
-            <label>Type Your password</label>
-            <input type="password" placeholder="Type Your Password" />
-            <button id="btn" class="one"> submit</button>
-        </fieldset>
-    </form>
-
-    <header>
-        <h2>
-            <a href="../assets/downlod/ppt.pptx">click the link to downlod the ppt file of html codes</a>
-        </h2>
-    </header>
-
-
-    <h2>Afghanistan history </h2>
-    <h3 class="hclass">you can learn important lessons in this book</h3>
-
-
-    <table>
-        <ul>
-            <li>
-                <h4>table of contents</h4>
-            </li>
-        </ul>
-        <ol>
-            <li>
-                <h5>About Kabul</h5>
-            </li>
-            <li>
-                <h5>About Herat</h5>
-            </li>
-            <li>
-                <h5>About Mazar</h5>
-            </li>
-        </ol>
+    <table id="listofemployee">
+        <tr>
+            <td>SN</td>
+            <td>ID</td>
+            <td>NAME</td>
+            <td>Sallary</td>
+        </tr>
     </table>
 
-    <nav>
-        <a href="mailto:nazirrashidi001@gmail.com"> Contact Me By Email</a>
-    </nav>
+    <form id="loginForm">
+        <label for="name">Username</label>
+        <input type="text" id="name" name="name" placeholder="Type your name" />
+        <p id="error"></p>
+
+        <label for="passwd">password</label>
+        <input type="password" id="passwd" name="passwd" placeholder="Type your password" />
 
 
-    <footer>
-        <h4>Phone 0764154134</h4>
-    </footer>
+        <input type="submit" id="Submit" />
+        <input type="reset" id="cancel" />
+    </form> -->
 
 
-    <figure>
-        <img src="../assets/images/clint.jpg.jpg" />
-        <figcaption>this image is about our website codes</figcaption>
-    </figure>
+    <ul id="navComputer">
+        <li>Menue</li>
+        <li>abut</li>
+        <li>home</li>
+        <li>Menue</li>
+        <li>Menue</li>
+        <li>Menue</li>
+        <li>Menue</li>
+    </ul>
+    <div class="navMobile">
+        <h1 id="navBtn"><i class="fa-solid fa-bars"></i></h1>
 
-    <video controls autoplay loop width="300px" height="250px">
-
-    </video>
+        <ul id="nav" class="close">
+            <li>Menue</li>
+            <li>abut</li>
+            <li>home</li>
+            <li>Menue</li>
+            <li>Menue</li>
+            <li>Menue</li>
+            <li>Menue</li>
+        </ul>
+    </div>
 </body>
 
 </html>
