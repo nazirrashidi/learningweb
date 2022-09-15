@@ -1,12 +1,12 @@
 // console.log("TYPE Conversion")
 
-// let a = true;
+// let a = 12;
 
 
 // console.log(a)
 // console.log(typeof a)
 
-// let atonumber = Number(a)
+// let atonumber = Boolean(a)
 
 
 // console.log(atonumber)
@@ -15,15 +15,17 @@
 
 // console.log("math operations")
 
-// let age = 32;
-// let year = 12;
+// let year = 2022;
+// let age = 25;
 
-// let sum = age + year;
+// let sum = year - age;
 // console.log(sum)
 
-// let pre = 10 % 3;
+// let pre = 100/10*2+4-10;
+// let reminder = 117 % 6
 
 // console.log(pre)
+// console.log(reminder)
 
 // let bol = "true";
 // let nu = "  false";
@@ -36,9 +38,9 @@
 // console.log(c)
 // console.log(d)
 // console.log("increase")
-// // let z = 10;
-// // z++
-// // console.log(z)
+// let z = 10;
+// z++
+// console.log(z)
 
 // console.log("decrease")
 // let y = 10;
@@ -103,10 +105,10 @@
 
 
 
-function sum(numberone, numbertwo, number3) {
+// // function sum(numberone, numbertwo, number3) {
 
-    let total = numberone + numbertwo + number3
-    console.log(`total number of ${numberone} + ${numbertwo} + ${number3} is ` + total)
-}
+//     let total = numberone + numbertwo + number3
+//     console.log(`total number of ${numberone} + ${numbertwo} + ${number3} is ` + total)
+// }
 
-sum(1, 3, 3);
+// sum(1, 3, 3);
