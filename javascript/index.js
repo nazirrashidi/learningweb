@@ -1,10 +1,45 @@
-// console.log("TYPE Conversion")
+let table = document.getElementById('listofemployee')
+let login_Form = document.getElementById('loginForm')
+let navbtn = document.getElementById('navBtn')
+let nav = document.getElementById('nav')
+let listofemployee = [
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 },
+    { id: 1, name: "ahmad", sallary: 23 },
+    { id: 2, name: "kabir", sallary: 43 },
+    { id: 3, name: "nazir", sallary: 53 },
+    { id: 3, name: "samim", sallary: 13 }
+]
 
 // let a = 12;
 
 
-// console.log(a)
-// console.log(typeof a)
 
 // let atonumber = Boolean(a)
 
@@ -75,35 +110,22 @@
 // }
 
 
-// console.log("loops / for loops while loops")
 
 
-// let counter = 0;
-// while (counter < 9) {
-
-//     console.log(counter)
-//     counter++;
-// }
-
-// for (let counter = 0; counter < 20; counter++) {
-//     console.log(counter)
-// }
-
-// let age = 10;
-// switch (age) {
-
-//     case 10:
-//         console.log("your age is ten year old");
-//         break;
-//     case 20:
-//         console.log("you are not under age ");
-//         break;
-//     default:
-//         console.log("You have age")
-// }
-// console.log("out side of switch")
+// login_Form.addEventListener('submit', (event) => {
+//     event.preventDefault();
+//     let username = event.target[0].value;
+//     let password = event.target[1].value;
 
 
+//     if (username = "sam" && password === "sam") {
+//         window.location = '/pages/home.html'
+//     }
+//     else {
+//         let erro = document.getElementById("error")
+//         erro.innerHTML = "Incorrect User Name and Password"
+//     }
+// });
 
 // // function sum(numberone, numbertwo, number3) {
 
